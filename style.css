@@ -1,0 +1,27 @@
+body {
+    font-family: Arial;
+    padding: 20px;
+}
+
+.task-tracker {
+    width: 400px;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+}
+
+button {
+    margin-left: auto;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
